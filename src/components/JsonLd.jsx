@@ -2,8 +2,8 @@ import { useRouter } from 'next/router'
 import Head from 'next/head'
 import { getAuthor } from '@/data/authors'
 
-const SITE_URL = 'https://techhut.tv'
-const SITE_NAME = 'TechHut'
+const SITE_URL = 'https://www.sudarblogger.web.id'
+const SITE_NAME = 'Sudar Blogger'
 
 /**
  * Organization schema - represents the TechHut brand
@@ -16,9 +16,9 @@ export function OrganizationJsonLd() {
     url: SITE_URL,
     logo: `${SITE_URL}/favicon.ico`,
     sameAs: [
-      'https://youtube.com/@techhut',
+      'https://youtube.com/@sudardiary',
       'https://x.com/TechHutTV',
-      'https://github.com/TechHutTV',
+      'https://github.com/kangsudarid',
       'https://www.linkedin.com/in/hopki',
     ],
     contactPoint: {
